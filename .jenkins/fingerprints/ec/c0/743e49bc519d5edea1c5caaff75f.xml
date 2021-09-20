@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-09-20 07:17:28.446 UTC</timestamp>
+  <md5sum>ecc0743e49bc519d5edea1c5caaff75f</md5sum>
+  <fileName>Credential id=jenkins-key name=ubuntu (jenkins-key)</fileName>
+  <usages>
+    <entry>
+      <string>test-freestyle</string>
+      <ranges>1-2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

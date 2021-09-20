@@ -1,0 +1,20 @@
+Started by user [8mha:////4PcEsXbUisFpg7H2kNTZGvscNcaGE6PzZzOEhuh677aIAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZu/dLi1CL9xJTczDwAwD7+acAAAAA=[0mmohammed yaser noaman
+Running as SYSTEM
+Building in workspace /home/ubuntu/.jenkins/workspace/test-freestyle
+The recommended git tool is: NONE
+using credential jenkins-key
+ > git rev-parse --resolve-git-dir /home/ubuntu/.jenkins/workspace/test-freestyle/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:YaserNoaman/devopscode.git # timeout=10
+Fetching upstream changes from git@github.com:YaserNoaman/devopscode.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_SSH to set credentials jenkins-key
+ > git fetch --tags --force --progress -- git@github.com:YaserNoaman/devopscode.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/CHECKOUT_CODE^{commit} # timeout=10
+Checking out Revision 14b7468d7a7dcfec3be03d3a0a4a192bc0074803 (origin/CHECKOUT_CODE)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 14b7468d7a7dcfec3be03d3a0a4a192bc0074803 # timeout=10
+Commit message: "Update dockerfile"
+First time build. Skipping changelog.
+Finished: SUCCESS

@@ -1,0 +1,20 @@
+Started by user [8mha:////4PcEsXbUisFpg7H2kNTZGvscNcaGE6PzZzOEhuh677aIAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZu/dLi1CL9xJTczDwAwD7+acAAAAA=[0mmohammed yaser noaman
+Running as SYSTEM
+Building in workspace /home/ubuntu/.jenkins/workspace/test-freestyle
+The recommended git tool is: NONE
+using credential jenkins-key
+Cloning the remote Git repository
+Cloning repository git@github.com:YaserNoaman/devopscode.git
+ > git init /home/ubuntu/.jenkins/workspace/test-freestyle # timeout=10
+Fetching upstream changes from git@github.com:YaserNoaman/devopscode.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_SSH to set credentials jenkins-key
+ > git fetch --tags --force --progress -- git@github.com:YaserNoaman/devopscode.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:YaserNoaman/devopscode.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse origin/master^{commit} # timeout=10
+ERROR: Couldn't find any revision to build. Verify the repository and branch configuration for this job.
+Finished: FAILURE
